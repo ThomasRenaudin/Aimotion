@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
          {
             "type": "Artiste partenaire",
             "title": "Tiakola",
-            "img": "Tiakola.jpg",
+            "img": "tiakola.jpg",
             "description": "Tournée 2023 - 2024",
         },
         {

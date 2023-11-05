@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             "date": "Août 2023",
             "title": "Palmfest 2023",
-            "cover": "palmfest.jpg",
+            "cover": "Palmfest.jpg",
             "description": "Fournisseur majeur son, lumière, vidéo",
         },
         {

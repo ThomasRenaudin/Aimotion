@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tagDate = document.querySelector('.slider__description--date');
         const tagDescription = document.querySelector('.slider__description--description');
 
-        bannerImg.src = `Assets/slider/${slide.cover}`; // Modification de l'image en récupérant la slide de l'index demandé
+        bannerImg.src = `Assets/Slider/${slide.cover}`; // Modification de l'image en récupérant la slide de l'index demandé
         tagTitle.innerHTML = slide.title; // Modification de la tag line de facon similaire
         tagDate.innerHTML = slide.date;
         tagDescription.innerHTML = slide.description;

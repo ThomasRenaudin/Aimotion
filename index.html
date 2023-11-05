@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/styles.css">
+    
+    <script src="https://kit.fontawesome.com/3932549f44.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap">
+    <title>Aimmotion - Arts vivants</title>
+</head>
+<body>
+
+    <!-- 1. Header -->
+    <header class="header">
+        <img class="header__logo" src="Assets/logo.png">
+        <nav class="header__list">
+            <ul>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#realisations">Nos Réalisations</a></li>
+                <li><a href="#equipe">Notre Equipe</a></li>
+                <li class="contact-btn"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. Slider des Réalisations -->
+    <section class="slider" id="slider">
+                <img class="slider__arrow slider__arrow--left" src="./assets/Slider/arrow_left.png" alt="flèche gauche">
+                <img class="slider__image" src="./assets/Slider/disiz.jpg" alt="Banner Aimmotion">
+                <div class="slider__description">
+                    <p class="slider__description--nom"></p>
+                    <p class="slider__description--description"></p>
+                    <p class="slider__description--date"></p>
+                </div>
+                <div class="slider__dots">
+                </div>
+                <img class="slider__arrow slider__arrow--right" src="./assets/Slider/arrow_right.png" alt="flèche droite">
+    </section>
+
+    <script src="Assets/Slider/script.js"></script>
+
+    <!-- 3. Présentation des Services -->
+    <section class="services" id="services">
+        <h2 class="services__title">Nos Services</h2>
+        <p class="services__description">AimMotion propose des prestations en Sonorisation, Lumière et Vidéo pour l’organisation 
+de vos réunions, conférences, soirées réceptives, expositions, concerts, défilés et lancement 
+de marques.</p>
+        <div class="services__flexbox">
+            <div class="services__flexbox--colonne service">
+                <img class="service__image" src="Assets/services/sonorisation.jpg">
+                <div class="service__description">
+                    <h3>Sonorisation</h3>
+                    <!-- Contenu de la compétence -->
+                    <p>Pourvus d'un parc matériel important, nous sommes capables de sonoriser n'importe quelle scène de festival ou de concert. Pour en savoir plus sur le matériel disponible et obtenir un devis adapté à vos besoins :
+                    </p>
+                    <div class="service__description--bouton">
+                        <a href="#contact">En savoir plus </a>
+                    </div>
+                </div>
+            </div>
+            <div class="services__flexbox--colonne service">
+                <img class="service__image" src="Assets/services/eclairage.jpg">
+                <div class="service__description">
+                    <h3>Eclairage</h3>
+                    <!-- Contenu de la compétence -->
+                    <p>Eclairage robotisés, série Rogue, projecteurs au sol, tubes Astéras ...  la seule limite est votre imagination ... Pour en savoir plus sur le matériel disponible et obtenir un devis adapté à vos besoins :
+                    </p>
+                    <div class="service__description--bouton">
+                        <a href="#contact">En savoir plus </a>
+                    </div>
+                </div>
+            </div>
+            <div class="services__flexbox--colonne service">
+                <img class="service__image" src="Assets/services/Ecrans.jpg">
+                <div class="service__description">
+                    <h3>Vidéo</h3>
+                    <!-- Contenu de la compétence -->
+                    <p>Leader dans l'installation et la régie d'écran leds, nous disposons de centaines de mètres carrés d'écrans. Indoor et Outdoor. Pour en savoir plus sur le matériel disponible et obtenir un devis adapté à vos besoins :
+                    </p>
+                    <div class="service__description--bouton">
+                        <a href="#contact">En savoir plus </a>
+                    </div>
+                </div>
+            </div>
+            <div class="services__flexbox--colonne service">
+                <img class="service__image" src="Assets/services/scénographie.jpg">
+                <div class="service__description">
+                    <h3>Structures temporaires & Scénographie</h3>
+                    <p> Un parc important de matériel nous permet de vous proposer une prestation complète de montage et d'habillage de scène.  Pour en savoir plus sur le matériel disponible et obtenir un devis adapté à vos besoins : </p>
+                    <div class="service__description--bouton">
+                        <a href="#contact">En savoir plus </a>
+                    </div>
+                    <!-- Contenu de la compétence -->
+                </div>
+            </div>
+            <div class="services__flexbox--colonne service">
+                <img class="service__image" src="Assets/services/Electricité.webp">
+                <div class="service__description">
+                    <h3>Distribution électrique</h3>
+                    <p> Armoires electriques, passages de cables, Groupes électrogènes. Polyvalence et sécurité. Pour travailler ensemble sur l'électrification de votre projet et obtenir un devis en accord avec vos besoins :</p>
+                    <div class="service__description--bouton">
+                        <a href="#contact">En savoir plus </a>
+                    </div>
+                    <!-- Contenu de la compétence -->
+                </div>
+            </div>
+            <div class="services__flexbox--colonne service">
+                <img class="service__image" src="Assets/services/régie.jpg">
+                <div class="service__description">
+                    <h3>Régie son & lumière</h3>
+                    <p> Nous travaillons avec un ensemble de régisseurs son, lumière et vidéo connaissant parfaitement notre matériel. Pour trouver l'expert qu'il vous faut pour gérer votre régie :  </p>
+                    <div class="service__description--bouton">
+                        <a href="#contact">En savoir plus </a>
+                    </div>
+                    <!-- Contenu de la compétence -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ellipse-section">
+    </section>
+
+    <script src="Assets/services/boutons.js"></script>
+
+    <!-- 4. Présentation des Réalisations -->
+    <section class="realisations" id="realisations">
+        <div class="realisations__entete">
+            <h2>Nos réalisations</h2>
+            <p> Catégories </p>
+
+            <div class="custom-dropdown">
+                <select id="categorie" name="categorie">
+                    <option value="">Toutes</option>
+                    <!-- Les autres options peuvent être ajoutées ici -->
+                </select>
+            </div>
+        </div>
+        <div class="realisations__cards">
+            
+        </div>
+
+    </section>
+
+    <script src="Assets/realisations/realisations.js"></script>
+    
+    <!-- 4. Notre Équipe -->
+    <section id="equipe">
+        <h2>Notre Équipe</h2>
+        <div class="equipeflexbox">
+            <div class="equipeflexbox__membre">
+                <img src="Assets/Equipe/Sylvain.jpg" class="equipeflexbox__membre--photo" alt="Membre 1">
+                <h4 class="equipeflexbox__membre--nom">Sylvain</p>
+                <p class="equipeflexbox__membre--poste">CEO</p>
+            </div>
+            <div class="equipeflexbox__membre">
+                <img src="Assets/Equipe/photoremplacement.jpg" class="equipeflexbox__membre--photo" alt="Membre 1">
+                <h4 class="equipeflexbox__membre--nom">Aline</p>
+                <p class="equipeflexbox__membre--poste">Directrice d'exploitation</p>
+            </div>
+            <div class="equipeflexbox__membre">
+                <img src="Assets/Equipe/photoremplacement.jpg" class="equipeflexbox__membre--photo" alt="Membre 1">
+                <h4 class="equipeflexbox__membre--nom">Elisabeth</p>
+                <p class="equipeflexbox__membre--poste">Directrice financière</p>
+            </div>
+            <div class="equipeflexbox__membre">
+                <img src="Assets/Equipe/Aurelien.jpg" class="equipeflexbox__membre--photo" alt="Membre 1">
+                <h4 class="equipeflexbox__membre--nom">Aurélien</p>
+                <p class="equipeflexbox__membre--poste">Responsable matériel & DJ</p>
+            </div>
+            <div class="equipeflexbox__membre">
+                <img src="Assets/Equipe/photoremplacement.jpg" class="equipeflexbox__membre--photo" alt="Membre 1">
+                <h4 class="equipeflexbox__membre--nom">Maxime</p>
+                <p class="equipeflexbox__membre--poste">Régisseur expert lumière</p>
+            </div>
+            <div class="equipeflexbox__membre">
+                <img src="Assets/Equipe/Samuel.png" class="equipeflexbox__membre--photo" alt="Membre 1">
+                <h4 class="equipeflexbox__membre--nom">Samuel</p>
+                <p class="equipeflexbox__membre--poste">Technicien polyvalent</p>
+            </div>
+        </div>
+    
+    </section>
+    <section class="ellipse-section2">
+    </section>
+
+    <!-- 5. Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="Formulaire" id="monFormulaire">
+            <div class="FormulaireFlexbox">
+                <div class="FormulaireFlexbox__champs">
+                    <div class="champsaisie">
+                        <span> Nom </span>
+                        <input type="text" name="nom" id="nom" placeholder="">
+                    </div>
+                    <div class="champsaisie">
+                        <span> Personel / Entreprise </span>
+                        <select name="persopro" id="persopro">
+                            <option value="personel"></option>
+                            <option value="personel">Personel</option>
+                            <option value="entreprise">Entreprise</option>
+                        </select>
+                    </div>
+                    <div class="champsaisie">
+                        <span> Téléphone </span>
+                        <input type="text" name="telephone" id="telephone" placeholder="">
+                    </div>
+                    <div class="champsaisie">
+                        <span> Mail </span>
+                        <input type="text" name="mail" id="mail" placeholder="">
+                    </div>
+                </div>
+                <div class="FormulaireFlexbox__message">
+                    <div class="champsaisie">
+                        <span> Message </span>
+                        <textarea name="message" id="message" placeholder=""></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="Formulaire__submit">
+                <button type="submit">Envoyer</button>
+            </div>
+            <!-- Formulaire de contact avec les champs requis -->
+        </form>
+    </section>
+
+    <script src="Assets/Form/form.js"></script>
+
+    <!-- 6. Footer -->
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="Assets/footer/logo.png">
+        </div>
+        <div class="footer__contact">
+            <h3 class="footer__contact--titre">Contactez nous</h3>
+            <div class="footer__contact--adresse">18 Rue Elie Bareau - 17000 La Rochelle</div>
+            <div class="footer__contact--telephone">06 78 44 33 32</div>
+            <div class="footer__contact--mail">contact@aimmotion.fr</div>
+            <div clsss="footer__contact--reseaux">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__data">
+                <h3> A propos de nous ...</h3>
+                Société spécialisée dans les secteurs techniques du spectacle et de l’évènementiel, nous offrons 
+                l’expertise et le suivi de projets de toutes dimensions, en tous lieux. 
+                </br>
+                </br>
+                Force de proposition de solutions et de créativité, AimMotion s’adapte en disposant d’un 
+                parc de matériel professionnel et collabore avec une équipe de techniciens compétents et 
+                à l’écoute. 
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

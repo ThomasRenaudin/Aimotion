@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "type": "Artiste partenaire",
+            "date": "Tour 2021-2022-2023",
+            "title": "Disiz",
+            "cover": "/disiz.jpg",
+            "description": "Tourneur officiel ",
+            "prestations": [
+                "Détail du matériel fourni"
+            ]
+        },
+        {
+            "id": 2,
+            "type": "Festival",
+            "date": "Août 2023",
+            "title": "Palmfest 2023",
+            "cover": "/disiz.jpg",
+            "description": "Fournisseur majeur son, lumière, vidéo",
+            "prestations": [
+                "Détail du matériel fourni"
+            ]
+        }
+    ]
+}
